@@ -1,0 +1,7 @@
+artifacts_roots: artifacts #Create a folder name artifacts in the root directory
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion #Create a folder name data_ingestion in the artifacts directory
+  source_url: "https://drive.google.com/file/d/1IC2oaggjc7B6vYAARDWhGhJwYiY5W8yW/view?usp=sharing"
+  local_data_file: artifacts/data_ingestion/data.zip #Create a folder name data in the data_ingestion directory
+  unzip_dir: artifacts/data_ingestion
